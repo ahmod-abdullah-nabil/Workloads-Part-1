@@ -47,4 +47,5 @@ int main()
         break;
     }
     cout << "The grade is: " << grade << "." << endl;
+    return 0;
 }
