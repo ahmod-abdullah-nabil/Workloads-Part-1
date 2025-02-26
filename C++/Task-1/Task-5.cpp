@@ -1,23 +1,29 @@
-// This is a basic program to “Write an if-else statement that outputs the word  Passed provided the value of the variable exam is greater than or equal to 60 and also the value of the variable programsDone is greater than or equal to 10. Otherwise, the if - else statement outputs the word Failed.The variables exam and programsDone are both of type int.”
+// This is a basic program to “ Write a multi-way  if-else  statement  that  classifies  the  value  of  a  variable  n  into  one  of  the following categories and writes out an appropriate message.n < 0 or 0 ... n... 1 or n > 1”
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int exam, programsDone;
-    cout << "Enter your exam marks: ";
-    cin >> exam;
-    cout << "Enter the number of programs done: ";
-    cin >> programsDone;
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;
 
-    if (exam >= 60 && programsDone >= 10)
+    if (n < 0)
     {
-        cout << "Passed";
+        cout << "n is less than 0.";
     }
-    else
+    else if (n == 0)
     {
-        cout << "Failed" << endl;
+        cout << "n is equal to 0.";
+    }
+    else if (n == 1)
+    {
+        cout << "n is equal to 1.";
+    }
+    else if (n > 1)
+    {
+        cout << "n is greater than 1." << endl;
     }
     return 0;
 }
