@@ -13,13 +13,11 @@ int main()
 {
     int score;
     char grade;
-    string Failed;
 
-    Failed = "You've Failed.";
     cout << "Enter the score(1-100): ";
     cin >> score;
 
-    if (score < 0 || score > 100)
+    while (score < 0 || score > 100)
     {
         cout << "Invalid Score" << endl;
         cout << "Enter the score(1-100): ";
@@ -32,20 +30,25 @@ int main()
     case 9:
         grade = 'A';
         break;
-    case8:
+    case 8:
         grade = 'B';
         break;
-    case7:
+    case 7:
         grade = 'C';
         break;
-    case6:
+    case 6:
         grade = 'D';
         break;
     default:
-        cout << Failed << endl;
         grade = 'F';
         break;
     }
+
     cout << "The grade is: " << grade << "." << endl;
+
+    if (grade == 'F')
+    {
+        cout << "You've Failed.";
+    }
     return 0;
 }
