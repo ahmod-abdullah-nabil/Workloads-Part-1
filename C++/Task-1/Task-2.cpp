@@ -7,17 +7,18 @@ using namespace std;
 int main()
 {
     double a, b, c, result;
-    cout << "Enter the value of a, b and c: ";
-    cin >> a >> b >> c;
+
+    cout << "Enter the value of a: ";
+    cin >> a;
+    cout << "Enter the value of b: ";
+    cin >> b;
+    cout << "Enter the value of c: ";
+    cin >> c;
 
     // We can also take input like this:
     /*
-    cout << "Enter the value of a:";
-    cin >> a;
-    cout << "Enter the value of b:";
-    cin >> b;
-    cout << "Enter the value of c:";
-    cin >> c;
+    cout << "Enter the value of a, b and c: ";
+    cin >> a >> b >> c;
     */
 
     result = (a * b) / c;
