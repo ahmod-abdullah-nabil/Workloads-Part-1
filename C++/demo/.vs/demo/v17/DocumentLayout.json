@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{982ACBDB-FDFA-4962-AF41-C009AEB64273}|demo\\demo.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\demo\\demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{982ACBDB-FDFA-4962-AF41-C009AEB64273}|demo\\demo.vcxproj|solutionrelative:demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\demo\\demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:demo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\demo\\demo\\main.cpp",
               "RelativeDocumentMoniker": "demo\\main.cpp",
-              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\demo\\demo\\main.cpp*",
-              "RelativeToolTip": "demo\\main.cpp*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBEAAAAVAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\demo\\demo\\main.cpp",
+              "RelativeToolTip": "demo\\main.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-25T07:47:46.011Z",
               "EditorCaption": ""

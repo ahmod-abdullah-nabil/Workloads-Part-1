@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\EndBrace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\EndBrace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EndBrace.h",
+              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\EndBrace.h",
+              "RelativeDocumentMoniker": "HelloWorld\\EndBrace.h",
+              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\EndBrace.h",
+              "RelativeToolTip": "HelloWorld\\EndBrace.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-07T22:31:21.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\main.cpp",
-              "RelativeDocumentMoniker": "HelloWorld\\main.cpp",
-              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\main.cpp",
-              "RelativeToolTip": "HelloWorld\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "math.cpp",
+              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\math.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\math.cpp",
+              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\math.cpp",
+              "RelativeToolTip": "HelloWorld\\math.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-23T06:09:41.938Z",
+              "WhenOpened": "2025-03-07T22:28:35.338Z",
               "EditorCaption": ""
             }
           ]
