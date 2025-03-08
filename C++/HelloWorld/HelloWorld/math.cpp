@@ -1,4 +1,8 @@
-int Multiply(int a, int b) {
-	int result = a * b;
-	return result;
-#include <EndBrace.h>
+const char* log(const char* message) {
+	return message;
+}
+int Multiply(int a, int b) 
+{
+	log("Multiply");
+	return a*b;
+}
