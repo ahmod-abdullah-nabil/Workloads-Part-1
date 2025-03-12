@@ -2,16 +2,15 @@
 
 #include <iostream>
 #include <cmath>
-using namespace std;
 int main()
 {
     int num;
     bool isPrime = true;
-    cout << "Enter a positive integer: ";
-    cin >> num;
+    std::cout << "Enter a positive integer: ";
+    std::cin >> num;
     if (num == 0 || num == 1)
     {
-        cout << num << " is not a prime number." << endl;
+        std::cout << num << " is not a prime number." << std::endl;
         return 0;
     }
     else
@@ -27,18 +26,11 @@ int main()
     }
     if (isPrime)
     {
-        cout << num << " is a prime number." << endl;
+        std::cout << num << " is a prime number." << std::endl;
     }
     else
     {
-        cout << num << " is not a prime number." << endl;
+        std::cout << num << " is not a prime number." << std::endl;
     }
     return 0;
-}
-
-#include <iostream>
-#include <cmath>
-
-int main()
-{
 }

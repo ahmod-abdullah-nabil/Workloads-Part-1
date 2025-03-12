@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B384BBAC-6A7D-40A4-AC71-C07A3AEEFD9E}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +40,35 @@
               "RelativeDocumentMoniker": "HelloWorld\\math.cpp",
               "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\math.cpp",
               "RelativeToolTip": "HelloWorld\\math.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-07T22:28:35.338Z",
+              "WhenOpened": "2025-03-08T08:31:56.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\main.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\main.cpp",
+              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\main.cpp",
+              "RelativeToolTip": "HelloWorld\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-08T08:31:55.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "log.cpp",
+              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\log.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\log.cpp",
+              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\HelloWorld\\HelloWorld\\log.cpp",
+              "RelativeToolTip": "HelloWorld\\log.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-08T08:31:53.899Z",
               "EditorCaption": ""
             }
           ]
