@@ -3,34 +3,23 @@
     using loop statements:
 
     s =  2/1 - 3/2 + 5/3 - 8/5 + ...... - ......*/
-
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    long double sum = 0.0;
-    long double numerator1 = 2.0, numerator2 = 3.0; // Fibonacci sequence: 2, 3, 5, 8, ...
-    long double denominator = 1.0;
-    bool isPositive = true;
-
-    for (int i = 1; i <= 1000; ++i)
+    int n = 1000;
+    int a = 2, b = 1;
+    int sign = 1;
+    double sum = 0;
+    for (int i = 0; i < n; i++)
     {
-        // Add or subtract the term based on the sign
-        sum += (isPositive ? 1 : -1) * (numerator1 / denominator);
-
-        // Update numerator using Fibonacci sequence
-        long double nextNumerator = numerator1 + numerator2;
-        numerator1 = numerator2;
-        numerator2 = nextNumerator;
-
-        // Update denominator (increases sequentially: 1, 2, 3, 4, ...)
-        denominator = i + 1;
-
-        // Toggle the sign for the next term
-        isPositive = !isPositive;
+        sum += sign * static_cast<double>(a) / b;
+        int temp = a;
+        a = a + b;
+        b = temp;
+        sign = -sign;
     }
-
-    std::cout << "The sum of the first 1000 terms is: " << sum << std::endl;
-
+    cout << "..... " << sum << endl;
     return 0;
 }
