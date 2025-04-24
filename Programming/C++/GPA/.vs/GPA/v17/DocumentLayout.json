@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\GPA\\",
+  "WorkspaceRootPath": "D:\\Github\\Workloads-Part-1\\Programming\\C\u002B\u002B\\GPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{365E4D72-65F5-4D4C-B0E5-37B39C8060D5}|GPA\\GPA.vcxproj|D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\GPA\\GPA\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{365E4D72-65F5-4D4C-B0E5-37B39C8060D5}|GPA\\GPA.vcxproj|D:\\Github\\Workloads-Part-1\\Programming\\C\u002B\u002B\\GPA\\GPA\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{365E4D72-65F5-4D4C-B0E5-37B39C8060D5}|GPA\\GPA.vcxproj|solutionrelative:GPA\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\GPA\\GPA\\main.cpp",
+              "DocumentMoniker": "D:\\Github\\Workloads-Part-1\\Programming\\C\u002B\u002B\\GPA\\GPA\\main.cpp",
               "RelativeDocumentMoniker": "GPA\\main.cpp",
-              "ToolTip": "D:\\Github\\Workloads-Part-1\\C\u002B\u002B\\GPA\\GPA\\main.cpp",
+              "ToolTip": "D:\\Github\\Workloads-Part-1\\Programming\\C\u002B\u002B\\GPA\\GPA\\main.cpp",
               "RelativeToolTip": "GPA\\main.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-25T02:37:13.798Z",
               "EditorCaption": ""
