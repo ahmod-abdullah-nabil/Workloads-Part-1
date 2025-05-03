@@ -11,7 +11,7 @@ int main()
     string input, result;
 
     cout
-        << "Enter  of text: ";
+        << "Enter the text: ";
     getline(cin, input);
 
     for (char c : input)
