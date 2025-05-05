@@ -35,6 +35,12 @@ void setup()
   pinMode(irReceiverPin, INPUT);
   pinMode(buzzerPin, OUTPUT);
 
+  // Ensure laser is initially OFF
+  digitalWrite(laserPin, LOW);
+
+  // Ensure buzzer is initially OFF
+  digitalWrite(buzzerPin, LOW);
+
   // Attach servo
   myServo.attach(servoPin);
 
@@ -61,7 +67,12 @@ void loop()
     if (distance > minDistance && distance < detectionThreshold)
     {
       // Object detected within range
-      engageTarget(); // Call engageTarget directly to activate laser and buzzer
+      Serial.print("Object detected at distance: ");
+      Serial.print(distance);
+      Serial.println(" cm");
+
+      // Check if the object is friendly or enemy
+      checkObject();
     }
   }
   else
@@ -123,6 +134,7 @@ void checkObject()
   {
     // Friendly detected - ignore and continue scanning
     Serial.println("Friendly target detected. Ignoring...");
+    // Continue scanning - do nothing special
   }
 }
 
@@ -147,11 +159,13 @@ void engageTarget()
   objectDetected = true;
   detectionTime = millis();
 
-  // Activate laser
+  // Activate laser - only now turn it ON
   digitalWrite(laserPin, HIGH);
+  Serial.println("Laser activated!");
 
   // Activate buzzer
   digitalWrite(buzzerPin, HIGH);
+  Serial.println("Buzzer activated!");
 
   Serial.println("Enemy target engaged!");
 }
