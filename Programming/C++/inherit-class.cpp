@@ -29,7 +29,7 @@ public:
     {
         a = x;
         b = y;
-    } // Parameterized constructor
+    }
 
     bool isCrazy() const
     {
