@@ -1,2 +1,1 @@
-# C Programming
- 
+# This file is for when I'm learning everything.
