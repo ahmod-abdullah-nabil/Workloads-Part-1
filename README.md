@@ -1,1 +1,1 @@
-# This file is for when I'm learning everything in my working time.
+# I'll be studying everything in my working time, thus this file is for that.
