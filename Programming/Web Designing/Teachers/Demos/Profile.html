@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(Assests/Images/profile-card-img/background.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile-box {
+        background: #ff574a;
+        text-align: center;
+        padding: 40px 90px;
+        color: #fff;
+        position: relative;
+        border-radius: 20px;
+      }
+
+      .menu-icon {
+        width: 25px;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+      }
+
+      .setting-icon {
+        width: 25px;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+      }
+
+      .profile-pic {
+        width: 15px;
+        border-radius: 50%;
+        background: #fff;
+        padding: 6px;
+        margin-top: 40px;
+      }
+      .profile-bottom {
+        background: #fff;
+        color: #999;
+        padding: 60px 0;
+        margin-right: -90px;
+        margin-left: -90px;
+        border-radius: 20px;
+        margin-top: -10px;
+      }
+
+      .profile-bottom img {
+        width: 15px;
+        margin-top: 15px;
+        cursor: pointer;
+      }
+
+      .profile-box button {
+        background: #fff;
+        color: #ff574a;
+        border: none;
+        outline: none;
+        box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+        padding: 15px 60;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-bottom: -50px;
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      .profile-box h3 {
+        font-size: 22px;
+        margin-top: 20px;
+        font-weight: 500;
+      }
+
+      .social-media {
+        width: 20px;
+        margin: 30px 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-box">
+        <img src="Assests/Images/profile-card-img/menu.png" class="menu.icon" />
+        <img src="Assests/Images/profile-card-img/setting.png" class="setting.icon" />
+        <img src="Assests/Images/profile-card-img/profile-pic.png" class="profile-pic" />
+        <h3>Jack Nicholson</h3>
+        <p>Web developer At Gooogle, California.</p>
+        <div class="social-media">
+          <img src="Assests/Images/profile-card-img/instagram.png" alt="" />
+          <img src="Assests/Images/profile-card-img/telegram.png" alt="" />
+          <img src="Assests/Images/profile-card-img/dribble.png" alt="" />
+        </div>
+        <button type="button">Follow</button>
+        <div class="profile-bottom">
+          <p>learn more about my profile.</p>
+          <img src="Assests/Images/profile-card-img/arrow.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

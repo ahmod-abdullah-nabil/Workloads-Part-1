@@ -1,0 +1,10 @@
+#Problem Name: How to clear terminal in python.
+#Code :
+
+import os
+clear = os.system("cls")
+
+
+#To Clear Screen :
+
+clear()

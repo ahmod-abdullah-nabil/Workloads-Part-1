@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0a303f48-c353-4386-b5aa-47e46fead11c": {
+      "ProjectGuid": "0a303f48-c353-4386-b5aa-47e46fead11c",
+      "DisplayName": "MY_GPA",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

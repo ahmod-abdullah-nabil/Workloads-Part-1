@@ -10,13 +10,14 @@
 
 #include <iostream>
 #include <iomanip>
+using namespace std;
 
 int main()
 {
     const int rows = 10;
     int triangle[rows][rows] = {0};
 
-    for (int i = 0; i < rows; ++i)
+    for (int i = 0; i < rows; i++)
     {
         triangle[i][0] = 1;
         for (int j = 1; j <= i; ++j)
@@ -25,15 +26,14 @@ int main()
         }
     }
 
-    for (int i = 0; i < rows; ++i)
+    for (int i = 0; i < rows; i++)
     {
-        std::cout << std::setw((rows - i) * 2);
+        cout << setw((rows - i) * 2);
         for (int j = 0; j <= i; ++j)
         {
-            std::cout << triangle[i][j] << "   ";
+            cout << triangle[i][j] << "   ";
         }
-        std::cout << std::endl;
+        cout << endl;
     }
-
     return 0;
 }
